@@ -22,3 +22,5 @@ delete from employee where id = 11;
 select * from employee where id = 9;
 select * from employee where technology = 'programmer';
 desc employee;
+select avg(salary) as average_salary from employee where designation = 'manager';
+select sum(salary) as sum_salary from employee where technology = 'programmer';
